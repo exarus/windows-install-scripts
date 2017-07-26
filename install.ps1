@@ -57,7 +57,7 @@ sudo choco install androidstudio -y
 
 # Install browsers
 scoop install firefox
-sudo choco install googlechrome -y
+sudo choco install googlechrome opera -y
 
 # Install development-related apps
 scoop install conemu putty mobaxterm
