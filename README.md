@@ -2,6 +2,12 @@
 
 Here are PowerShell scripts that install the software I need. You can check them out, customize and use some pieces by yourself.
 
+## Administrator privileges
+
+Some commands require admin privileges. So UAC notifications will raise. Though it's not nessasary I recommend running script from an elevated shell (run Powershell as administrator) in order to skip constantly accepting UAC notifications.
+
+In this scripts admin privileges are required for installing and updating Chocolatey, all Chocolatey packages and Oracle JDK package from Scoop.
+
 ## What's under the hood
 
 Scripts are using the power of 3 package managers:
