@@ -15,7 +15,7 @@ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
 iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
 
 # Install CLI Utilities
-scoop install touch ln which grep shasum curl wget sudo 7zip gzip tar zip unzip webp git
+scoop install touch ln which grep shasum curl wget sudo 7zip gzip tar zip unzip webp git gpg say
 
 # Add bucket to Scoop (requires Git installed)
 scoop bucket add extras
