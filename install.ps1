@@ -61,7 +61,7 @@ sudo choco install googlechrome opera -y
 
 # Install development-related apps
 scoop install conemu putty mobaxterm
-sudo choco install postman soapui -y
+sudo choco install postman soapui insomnia-rest-api-client -y
 
 # Install PC monitoring apps
 scoop install procexp
