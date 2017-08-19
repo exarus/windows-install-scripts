@@ -69,4 +69,4 @@ sudo choco install ccleaner windirstat -y
 
 # Install other desktop apps
 scoop install mpc-hc
-sudo choco install aimp discord gitter foxitreader -y
+sudo choco install aimp foxitreader discord gitter whatsapp -y

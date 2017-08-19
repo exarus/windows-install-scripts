@@ -7,6 +7,8 @@ Enable-WindowsOptionalFeature -Online -FeatureName:Microsoft-Hyper-V -All
 # Download from Store
 # - Twitter
 # - Facebook
+# - LinkedIn
+# - Stack 10
 # - Instagram
 # - Skype
 # - Slack
