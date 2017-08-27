@@ -15,7 +15,7 @@ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
 iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
 
 # Install CLI Utilities
-scoop install touch ln which grep shasum curl wget sudo 7zip gzip tar zip unzip webp git gpg say
+scoop install touch ln which grep shasum curl wget sudo 7zip gzip tar zip unzip webp git gpg say openssh
 
 # Add bucket to Scoop (requires Git installed)
 scoop bucket add extras
@@ -60,7 +60,7 @@ scoop install firefox
 sudo choco install googlechrome opera -y
 
 # Install development-related apps
-scoop install conemu putty mobaxterm
+scoop install conemu mobaxterm
 sudo choco install postman soapui insomnia-rest-api-client -y
 
 # Install PC monitoring apps
